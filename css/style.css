@@ -1,0 +1,81 @@
+
+                /* Body */
+body{
+    padding: 16px;
+}
+
+                /* Main Header */
+#main-header{
+    text-align: center;
+}
+                /* Main */
+main{
+    display: block;
+}
+.content-container{
+    display: flex;
+    justify-content: space-between;
+    gap: 32px;
+}
+#right-content, #left-content{
+    flex: 1;
+    padding: 16px;
+}
+#introduction-article{
+    text-align: center;
+}
+
+                /* Left Content */
+/* Form */
+form{
+    background-color: #dbdbdb;
+    padding: 24px;
+    border-radius: 10px;
+    margin: 8px 0px;
+}
+.form-group{
+    display: flex;
+    flex-direction: column;
+    padding: 10px 0px;
+}
+.form-group input{
+    margin-top: 8px;
+    border: none;
+    border-radius: 10px;
+    padding: 8px;
+}
+/* Form Button */
+.form-button{
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    margin-top: 16px;
+    justify-content: center;
+}
+.form-button .button{
+    border: none;
+    padding: 8px;
+    border-radius: 10px;
+}
+.form-button #submit-button{
+    background-color: rgb(236, 213, 79);
+}
+.form-button #reset-button{
+    background-color: rgb(255, 255, 255);
+}
+
+                /* Right Content */
+.result-section{
+    text-align: center;
+    margin: 8px 0px;
+    padding: 24px;
+    background-color: #dbdbdb;
+    border-radius: 10px;
+}
+.result-section #result{
+    font-size: xxx-large;
+    font-family: monospace;
+}
+.result-section p{
+    font-size: large;
+}
