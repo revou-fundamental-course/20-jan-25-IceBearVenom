@@ -2,12 +2,16 @@
                 /* Body */
 body{
     padding: 16px;
+    font-family: Arial;
 }
 
                 /* Main Header */
 #main-header{
     text-align: center;
+    padding: 16px 32px;
+    background-color: #dbdbdb;
 }
+
                 /* Main */
 main{
     display: block;
@@ -55,6 +59,9 @@ form label{
     font-size: 17px;
     font-weight: bold;
 }
+.gender-icon{
+    width: 32px;
+}
 /* Form Button */
 .form-button{
     display: flex;
@@ -83,20 +90,37 @@ form label{
     background-color: #dbdbdb;
     border-radius: 10px;
 }
+.result-section #type-result{
+    font-weight: bold;
+}
 .result-section #result{
-    font-size: xxx-large;
+    font-size: 72px;
+    font-weight: normal;
     font-family: monospace;
 }
 .result-section p{
     font-size: large;
 }
 
+                /* Footer */
+footer{
+    text-align: center;
+    padding: 16px 32px;
+    margin-top: 32px;
+    background-color: #dbdbdb;
+}
+
                 /* Responsive */
-@media only screen and (max-width: 512px) {
+@media only screen and (max-width: 650px) {
     /* Main */
     .content-container{
         flex-direction: column;
     }
     /* Left Content */
 
+    /* Right COntent */
+    .result-section #result{
+        font-weight: bold;
+        font-family: monospace;
+    }
 }
